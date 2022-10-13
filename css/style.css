@@ -1,0 +1,655 @@
+/****************************************************************************/
+/**************  UNIVESRAL STYLE ********************************************/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fff7f0;
+}
+header {
+  width: 100%;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 48px;
+  height: 48px;
+}
+.btn {
+  background: #030303;
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff7f0;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #755cde;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+.header-heading {
+  text-align: center;
+  color: #030303;
+}
+.header-text {
+  font-style: normal;
+  font-weight: 500;
+  color: #71746e;
+  text-align: center;
+}
+.forgrid{
+  display: grid;
+  justify-items: center;
+}
+.one {
+  background: #755cde;
+  border-radius: 8px;
+}
+.two {
+  background: #f6a560;
+  border-radius: 8px;
+}
+.three {
+  background: #f39e9e;
+  border-radius: 8px;
+}
+.four {
+  background: #eb7565;
+  border-radius: 8px;
+}
+.five {
+  background: #61c4b7;
+  border-radius: 8px;
+}
+.six {
+  background: #552049;
+  border-radius: 8px;
+}
+.one img {
+  transform: translate(150%, 10%);
+}
+.two img {
+  transform: translate(120%, 30%);
+}
+.three img {
+  transform: translate(120%, 30%);
+}
+.four img {
+  transform: translate(150%, 30%);
+}
+.five img {
+  transform: translate(100%, 30%);
+}
+.six img {
+  transform: translate(150%, 30%);
+}
+.forgrid h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+.one h1 {
+  margin-top: 115px;
+  margin-left: 24px;
+}
+.two h1 {
+  margin-top: 73px;
+  margin-left: 23px;
+}
+.three h1 {
+  margin-top: 68px;
+  margin-left: 23px;
+}
+.four h1 {
+  margin-top: 46px;
+  margin-left: 23px;
+}
+.five h1 {
+  margin-top: 64px;
+  margin-left: 23px;
+}
+.six h1 {
+  margin-top: 45px;
+  margin-left: 23px;
+}
+.consultantamy {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: -60px;
+}
+.consultantamy-img {
+  transform: none;
+}
+.amy-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.amy-heading {
+  font-style: normal;
+  color: #030303;
+  font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+.amy-text {
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: #7a746e;
+}
+.amy-btn {
+  background: #eb7565;
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff7f0;
+  border: none;
+  margin-left: 0;
+}
+.amy-btn:hover {
+  cursor: pointer;
+  background: #f6a560;
+}
+.sliderwork {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slide-heading {
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #030303;
+}
+/**************************************************************************************/
+
+
+.sliderphotos {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-bottom: 32px;
+}
+.sliderphotos img {
+  border-radius: 10px;
+}
+
+
+
+/************************************************************************************/
+.left {
+  width: 64px;
+  height: 64px;
+  background: #030303;
+  border-radius: 50%;
+  border: none;
+  margin-right: 16px;
+}
+.right {
+  width: 64px;
+  height: 64px;
+  background: #030303;
+  border-radius: 50%;
+  border: none;
+}
+.right:hover {
+  cursor: pointer;
+  background: #755cde;
+}
+.left:hover {
+  cursor: pointer;
+  background: #755cde;
+}
+.book-container {
+  background: #030303;
+  margin-top: 100px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+.container-inside {
+  display: flex;
+  align-items: center;
+  margin-top: 49px;
+}
+.book-content {
+  margin-top: 30px;
+}
+.book-heading {
+  font-style: normal;
+  font-weight: 700;
+  color: #fff7f0;
+}
+.book-text {
+  font-style: normal;
+  font-weight: 500;
+  color: #fff7f0;
+}
+.book-btn {
+  background: #eb7565;
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff7f0;
+  border: none;
+}
+.book-btn:hover {
+  cursor: pointer;
+  background: #f6a560;
+}
+footer {
+  width: 100%;
+  height: 130px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 48px;
+  height: 48px;
+}
+/*************************************************************************************/
+/**************** UNIVESRAL STYLE END ************************************************/
+
+
+/************* MEDIA START **********************/
+@media screen and (min-width: 375px){
+  .navigation{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .btn{
+    width: 176px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  header{
+    width: 100%;
+  }
+  .header-heading{
+    width: 343px;
+    height: 90px;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 34px;
+  }
+  .header-text{
+    width: 285px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .forgrid{
+    margin-top: 32px;
+    row-gap: 24px;
+    grid-template-columns: repeat(2, 187.5px);
+  }
+  .one{
+    width: 343px;
+    height: 364px;
+    grid-column: 1/3;
+  }
+  .two{
+    width: 159px;
+    height: 182px;
+  }
+  .three{
+    width: 159px;
+    height: 182px;
+  }
+  .four{
+    width: 343px;
+    height: 158px;
+    grid-column: 1 / 3;
+  }
+  .five{
+    width: 343px;
+    height: 182px;
+    grid-column: 1/3;
+  }
+  .six{
+    width: 343px;
+    height: 182px;
+    grid-column: 1/3;
+  }
+  .consultantamy{
+    flex-direction: column;
+  }
+  .amy-info{
+    align-items: center;
+  }
+
+  .consultantamy-img{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+  }
+  .amy-heading{
+    width: 343px;
+    height: 66px;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .amy-text{
+    width: 343px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .amy-btn{
+    width: 176px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .slide-heading{
+    font-size: 24px;
+    line-height: 30px;
+  } 
+  .slidephotos img{
+    width: 270px;
+    height: 180px;
+  }
+  .book-container{
+    width: 343px;
+    height: 352px;
+  }
+  .container-inside{
+    flex-direction: column;
+  }
+  .book-heading{
+    width: 240px;
+    height: 33px;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .book-text{
+    width: 295px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .book-btn{
+    width: 176px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .footer {
+    margin-top: 42px;
+    margin-left: 15px;
+    margin-right: 17px;
+  }
+}
+@media screen and (min-width: 768px){
+  .navigation{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .btn{
+    width: 228px;
+    height: 56px;
+  }
+  .header-heading {
+    width: 690px;
+    height: 55px;
+    font-size: 44px;
+    line-height: 55px;
+  }
+  .header-text{
+    width: 573px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .forgrid{
+    grid-template-columns: repeat(4, 178px);
+    grid-template-rows: repeat(3, 158px);
+    row-gap: 33px;
+  }
+  .four{
+    width: 343px;
+    grid-column-start: 5;
+    margin-top: 14px;
+  }
+  .six {
+    grid-column-start: 5;
+ }
+ .consultantamy {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+ }
+ .amy-info{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 100px;
+ }
+ .amy-heading{
+    width: 339px;
+    height: 120px;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: start;
+ }
+  .amy-text{
+    width: 339px;
+    height: 140px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+  }
+  .consultantamy-img{
+    transform: translateX(-30px);
+  }
+  .amy-btn{
+    width: 228px;
+    height: 56px;
+  }
+  .slide-heading{
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .slidephotos img{
+    width: 540px;
+    height: 360px;
+  }
+  .book-container{
+    width: 690px;
+    height: 352px;
+  }
+  .book-heading{
+    width: 540px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .book-text{
+    width: 540px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .book-btn{
+    width: 228px;
+    height: 56px;
+  }
+  .footer {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 164px;
+    margin-top: 34px;
+  }
+  .header-heading {
+    margin-top: 70px;
+    width: 751px;
+    height: 71px;
+    font-size: 56px;
+    line-height: 71px;
+    text-align: center;
+  }
+  .header-text {
+    width: 730px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 16px;
+  }
+  .forgrid {
+    grid-template-columns: repeat(6, 170px);
+    grid-template-rows: repeat(3, 150px);
+    row-gap: 56px;
+    column-gap: 15px;
+    margin-top: 80px;
+  }
+  .one {
+    width: 354px;
+    height: 364px;
+  }
+  .two{
+      width: 164px;
+      height: 182px;
+      margin-left: 22px;
+  }
+  .three {
+    width: 164px;
+    height: 182px;
+    margin-left: 30px;
+  }
+  .four {
+    width: 354px;
+    height: 158px;
+    margin-left: 24px;
+    margin-top: 0;
+  }
+  .five {
+    width: 354px;
+    height: 182px;
+    grid-column: 6/6;
+    grid-row: 1;
+    margin-right: 151px;
+  }
+  .six {
+    width: 354px;
+    height: 158px;
+    grid-column: 6/6;
+    margin-right: 151px;
+    
+  }
+  .amy-heading{
+    width: 540px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .amy-text {
+    width: 540px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .amy-btn {
+    width: 228px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 0;
+  }
+  .consultantamy-img {
+    width: 445px;
+    height: 445px;
+    transform: none;
+  }
+  .slide-heading {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .slidephotos img {
+    width: 540px;
+    height: 360px;
+  }
+  .book-container {
+    margin-top: 100px;
+    width: 1110px;
+    height: 320px;
+  }
+  .container-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 49px;
+  }
+  .book-heading {
+    text-align: start;
+    width: 540px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+  }
+  .book-text {
+    text-align: start;
+    width: 540px;
+    height: 84px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  .book-btn {
+    width: 228px;
+    height: 56px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .consultantamy{
+    margin-top: -80px;
+  }
+  .footer {
+    margin-left: 165px;
+    margin-right: 164px;
+  }
+}
