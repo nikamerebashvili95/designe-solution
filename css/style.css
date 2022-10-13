@@ -188,9 +188,6 @@ header {
   text-align: center;
   color: #030303;
 }
-/**************************************************************************************/
-
-
 .sliderphotos {
   margin-top: 32px;
   display: flex;
@@ -201,10 +198,6 @@ header {
 .sliderphotos img {
   border-radius: 10px;
 }
-
-
-
-/************************************************************************************/
 .left {
   width: 64px;
   height: 64px;
@@ -379,7 +372,7 @@ footer {
     font-size: 24px;
     line-height: 30px;
   } 
-  .slidephotos img{
+  .sliderphotos img{
     width: 270px;
     height: 180px;
   }
