@@ -7,10 +7,9 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -26,7 +25,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 - Solution URL: [Solution](https://github.com/nikamerebashvili95/designe-solution)
 - Live Site URL: [GitHub Live URL](https://nikamerebashvili95.github.io/designe-solution/)
 
-## My process
 
 ### Built with
 
@@ -42,6 +40,6 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 - GitHub - [Nika Merebashvili](https://github.com/nikamerebashvili95)
 
 
-## Acknowledgments
 
-- BitCamp: [BitCamp](https://www.facebook.com/groups/bitcamp.ge/permalink/8389844074389186/)
+
+
